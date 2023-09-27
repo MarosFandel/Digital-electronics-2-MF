@@ -45,6 +45,7 @@ int main(void)
     uint8_t led_valueblue = 0;
 
     // Set pin where on-board LED is connected as output
+    pinMode(LED_GREEN, OUTPUT);
     pinMode(LED_BLUE, OUTPUT);
 
     // Infinite loop
